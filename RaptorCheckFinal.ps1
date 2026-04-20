@@ -12,6 +12,7 @@
 # 1. place this script in documents or similar folder on local machine
 # 2. copy/paste below into new shortcut
 # powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Path\To\Script.ps1"
+# conhost.exe powershell.exe -WindowStyle Hidden -File "C:\Your\Full\Path\To\YourScript.ps1" << use this one if the above one does not start silently, this is an issue with Windows Terminal being the default I believe
 # 3. place your shortcut in shell:startup folder (accessible through windows + r or file explorer)
 # 4. ensure the user has local admin privileges (possibly setup a kiosk account if only used for Raptor)
 #
