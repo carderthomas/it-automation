@@ -97,7 +97,7 @@ function Show-HelpDeskAlert {
     }
 
     $msg = $messages[$ErrorType]
-    if (-not $msg) { $msg = "An unknown Raptor error occurred. Please submit a Help Desk work order." }
+    if (-not $msg) { $msg = "An unknown Raptor error occurred. Please submit a ticket or call the help desk." }
 
     [System.Windows.MessageBox]::Show(
         $msg,
