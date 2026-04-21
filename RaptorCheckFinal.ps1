@@ -18,9 +18,9 @@
 #
 
 #
-# to use
+#   to use
 #
-# - once installed, service monitoring will be automatically record the status of your Hardware Service every 15 minutes
+# - once installed, service monitoring will automatically record the status of your Hardware Service every 15 minutes
 # - if any errors are encountered, they will be logged and a correction will be attempted
 # - if the error is fatal, a pop-up will appear on your user's desktop to inform them to submit a help ticket (exact message can modified below)
 # - the log is available by navigating to the LocalAppData folder where it will be saved in a folder named whatever you called your orgName variable (default is Your Organization)
